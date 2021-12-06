@@ -1,0 +1,133 @@
+.container{
+    position: relative;
+    min-width: 1440px;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%; 
+    margin-top: 10px;
+    padding: 30px;
+   
+} 
+.nav-link{
+    color:hsl(0, 0%, 100%);
+    margin: 0 10px 0 15px;
+}
+.navbar-brand{
+    color: #fff;
+    font-size:28px;
+}
+.container .navbar .nav .nav-item .btn2{
+    border: hsl(0, 0%, 100%) solid 1px;
+    border-radius: 100px;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.footer-brand{
+    color:hsl(167, 40%, 24%); 
+    font-size:28px;
+}
+.footer-link{
+    color:hsl(167, 40%, 24%); 
+    margin: 15px;
+}
+.col, .row, .card, .img{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.card .card-img-top{
+    width: 100px;
+    height: 100px;
+    border-radius:200px;
+    margin: auto;
+    
+}
+.card .card-body .card-text,  .card .card-img-overlay .card-text{
+    font-size: 20px;
+}
+.card .card-body .card-title,  .card .card-img-overlay .card-title{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.card-text, .card-title, .btn1{
+    margin: 60px;
+    background: none;
+    color:black;
+    border:none;
+    font-family:'Big Shoulders Display' ;  
+}
+.card .card-body .btn1{
+    width: 150px;
+    font-weight: bolder;
+    border-bottom:orange 3px solid;
+}
+.card .card-body .btn1:hover{
+    background-color: orange;
+}
+
+.clienth5{
+    text-align: center;
+    margin: 100px 0 75px 0; 
+}
+
+.row .card .card-img-overlay{
+    margin-top: 270px;
+    text-align: center;
+}
+.container .card-img-overlay h5{
+    color: hsl(0, 0%, 100%);
+    font-size: 56px;
+    margin-top: 190px;
+    text-align: center;
+    font-family: 'Big Shoulders Display';
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Fraunces:wght@700&family=Lexend+Deca:wght@700;900&display=swap');
+
+.container .card-img-overlay img{
+    color: hsl(0, 0%, 100%);
+    margin-top: 320px;
+    margin-left: 50%;
+}
+
+.footer{
+    background-color:hsl(168, 65%, 59%);
+    height: 200px;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    padding: 30px;
+}
+.footer-items{
+    display: inline-block;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .attribution a {
+    color: hsl(167, 40%, 24%); 
+    text-decoration: none;
+  }
+  .col-4 .card {
+      text-align: center;
+      padding: 20px;
+  }
+  .col-4 .card .card-body .card-title{
+      font-size: 22px;
+      margin-bottom: 0px;
+  }
+  .col-4 .card .card-body .card-text{
+      font-size: 18px;
+      margin-top: 1px;
+      margin-bottom: 80px;
+
+  }
